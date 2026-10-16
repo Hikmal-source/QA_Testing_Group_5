@@ -8,57 +8,48 @@ assignees: ''
 ---
 
 ---
-name: Bug Report
-about: Report a reproducible defect found during testing
-title: "[BUG] "
-labels: bug
+name: Test Execution
+about: Record test execution results and track failures
+title: "[TEST EXECUTION] "
+labels: test-execution
 assignees: ""
 ---
 
-## Summary
-Provide a concise description of the defect.
-
-## Environment
+## Execution Information
+- Tester:
+- Test Cycle:
 - Environment:
-- Browser / OS:
 - Build / Version:
+- Execution Date:
 
-## Preconditions
-Describe the conditions required to reproduce the defect.
+## Test Results
+| Test ID | Feature | Expected Result | Actual Result | Status | Bug Link |
+|---|---|---|---|---|---|
+| TC-01 | | | | Not Run | |
 
-## Steps to Reproduce
-1.
-2.
-3.
+## Execution Summary
+- Total Test Cases:
+- Passed:
+- Failed:
+- Blocked:
+- Not Run:
 
-## Expected Result
-Describe the expected behavior.
+## Failed Tests
+Describe failed test cases and link their defect reports.
 
-## Actual Result
-Describe the actual behavior.
+## Blocked Tests
+Explain why the tests could not be executed.
 
-## Severity
-- [ ] Critical
-- [ ] High
-- [ ] Medium
-- [ ] Low
-
-## Priority
-- [ ] P1 - Urgent
-- [ ] P2 - High
-- [ ] P3 - Normal
-- [ ] P4 - Low
-
-## Reproducibility
-- [ ] Always
-- [ ] Sometimes
-- [ ] Rarely
+## Regression Testing
+- [ ] Required regression tests identified
+- [ ] Relevant regression tests executed
+- [ ] Results documented
 
 ## Evidence
-Attach screenshots, recordings, logs, or relevant links.
+Attach screenshots, logs, or recordings.
 
-## Impact
-Describe the affected functionality and user impact.
-
-## Additional Notes
-Add any relevant information.
+## Follow-up Actions
+- [ ] Investigate failures
+- [ ] Report confirmed defects
+- [ ] Retest fixes
+- [ ] Update test results
